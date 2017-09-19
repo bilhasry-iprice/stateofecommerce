@@ -1,0 +1,15 @@
+<div class="content-block" id="faq">
+	<h3>{{ faq.title }}</h3>
+	<div class="faq-customer">
+		<h4>{{ faq.consumer.title }}</h4>
+		<div class="faq-item" ng-repeat="question in faq.consumer.questions">
+			<a class="faq-item">{{ question.title }}</a>
+		</div>
+	</div>
+	<div class="faq-merchants">
+		<h4>{{ faq.merchants.title }}</h4>
+		<div class="faq-item" ng-repeat="question in faq.merchants.questions">
+			<a class="faq-item">{{ question.title }}</a>
+		</div>
+	</div>
+</div>

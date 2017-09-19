@@ -1,0 +1,156 @@
+[
+  {
+    "id": "key-findings",
+    "title": "Key Findings",
+    "rows": [
+      {
+        "class": "finding-row row",
+        "cols": [
+          {
+            "class": "finding-item col-md-4 col-lg-4",
+            "content": "<figure><a href='#'><img src='assets/img/average-order-value.png'><figcaption><h4>Average Order Value</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></figcaption></a></figure>"
+          },
+          {
+            "class": "finding-item col-md-4 col-lg-4",
+            "content": "<figure><a href='#'><img src='assets/img/cancellation-rate.png'><figcaption><h4>Cancellation Rate</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></figcaption></a></figure>"
+          },
+          {
+            "class": "finding-item col-md-4 col-lg-4",
+            "content": "<figure><a href='#'><img src='assets/img/conversion-rate.png'><figcaption><h4>Conversion Rate</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></figcaption></a></figure>"
+          }
+        ]
+      },
+      {
+        "class": "finding-row row",
+        "cols": [
+          {
+            "class": "finding-item col-md-4 col-lg-4",
+            "content": "<figure><a href='#'><img src='assets/img/value-added-services.png'><figcaption><h4>Value Added Services</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></figcaption></a></figure>"
+          },
+          {
+            "class": "finding-item col-md-4 col-lg-4",
+            "content": "<figure><a href='#'><img src='assets/img/average-order-value.png'><figcaption><h4>Social Media</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></figcaption></a></figure>"
+          },
+          {
+            "class": "finding-item col-md-4 col-lg-4",
+            "content": "<figure><a href='#'><img src='assets/img/key-finding.png'><figcaption><h4>Key Finding 6</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></figcaption></a></figure>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "executive-summary",
+    "class": "grey-background",
+    "title": "Executive Summary",
+    "rows": [
+    	{
+    		"class" : "summary-people",
+    		"cols": [
+    			{
+    				"class": "people-detail",
+            		"content": "<img src='assets/img/matteo-sutto.png'><span class='people-name'>Matteo Sutto</span><span class='title'>SVP of Marketing</span>"
+    			}
+    		]
+    	},
+    	{
+    		"class" : "summary-content row",
+    		"cols": [
+    			{
+    				"class": "summary-item col-md-6 col-lg-6",
+            		"content": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy.&nbsp;</p>"
+    			},
+    			{
+    				"class": "summary-item col-md-6 col-lg-6",
+            		"content": "<ul><li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li><li>It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.<br></li><li>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</li><li>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC.<br></li><li>This book is a treatise on the theory of ethics, very popular during the Renaissance.</li><li>The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</li></ul>"
+    			}
+    		]
+    	}
+    ]
+  },
+  {
+    "id": "iprice-data",
+    "class" : "parallax",
+    "title" : "iPrice Proprietary Data"
+  },
+  {
+    "id": "southeast-asia",
+    "title" : "South East Asia Average",
+    "rows" : [
+      {
+        "class" : "average-report row",
+        "cols" : [
+          {
+            "class" : "col-md-5 col-lg-5",
+            "content" : "<figure class='percentage-item'><img src='assets/img/conversion-rate.png' alt='' /><figcaption><span class='percentage'>1.99%</span><span class='subtitle'>Conversion Rate</span></figcaption></figure><figure class='percentage-item'><img src='assets/img/average-order-value.png' alt='' /><figcaption><span class='percentage'>51%</span><span class='subtitle'>Average Order Value</span></figcaption></figure><figure class='percentage-item'><img src='assets/img/cancellation-rate.png' alt='' /><figcaption><span class='percentage'>9.45%</span><span class='subtitle'>Local Cancellation</span></figcaption></figure>"
+          },
+          {
+            "class" : "col-md-7 col-lg-7",
+            "content" : "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy.&nbsp;</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  	"id": "value-added",
+  	"class" : "parallax",
+  	"title" : "Value Added Services"
+  },
+  {
+  	"id": "conversion-rate",
+    "title": "Conversion Rate",
+    "rows": [
+    	{
+    		"class" : "conversion-rate-by-country row",
+    		"cols"  : [
+    			{
+    				"class" : "graph-section col-md-5 col-lg-5",
+    				"content": "<h4>Conversion Rate By Country</h4><div id='chart1' type='bar' class='chart' data-title='Conversion Rate'></canvas>"
+    			},
+    			{
+    				"class": "summary-item col-md-7 col-lg-7",
+            		"content": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy.&nbsp;</p>"
+    			}
+    		]
+    	}
+    ]
+  },
+  {
+  	"id": "methodology",
+  	"class": "grey-background",
+  	"title" : "Methodology",
+  	"rows": [
+  		{
+  			"class": "methodology-list media",
+  			"cols" : [
+  				{
+  					"class" : "media-left",
+  					"content" : "<img src='assets/img/thinking-mind.png' alt='' class='media-object' src='' />"
+  				},
+  				{
+  					"class" : "media-body",
+  					"content": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>"
+  				}
+  			]
+  		},
+  		{
+  			"class" : "methodology-in-number row",
+  			"cols" : [
+  				{
+  					"class" : "col-md-4 counter col-lg-4",
+  					"content": "<figure><span class='number'><img src='assets/img/retailers.png'>200+</span><figcaption>E-commerce Retailers</figcaption></figure>"
+  				},
+  				{
+  					"class" : "col-md-4 counter col-lg-4",
+  					"content": "<figure><span class='number'><img src='assets/img/customers.png'>31M</span><figcaption>Customers</figcaption></figure>"
+  				},
+  				{
+  					"class" : "col-md-4 counter col-lg-4",
+  					"content": "<figure><span class='number'><img src='assets/img/transactions.png'>$25B</span><figcaption>Transactions</figcaption></figure>"
+  				}
+  			]
+  		}
+  	]
+  }
+]
