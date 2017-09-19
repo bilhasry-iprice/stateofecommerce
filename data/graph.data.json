@@ -1,0 +1,9 @@
+[
+	{
+		"labels" : ["Conversion Rate"],
+		"data" 	 : [
+			["x", "PH", "VN", "MY", "SG", "TH", "ID"],
+            ["Conversion Rate", 1.09, 1.24, 1.24, 1.47, 0.72, 1.72]
+        ]
+	}
+]

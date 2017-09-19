@@ -1,0 +1,11 @@
+<div ng-repeat="section in sections" class="{{ section.class }} section"  id="{{ section.id }}" ng-switch="section.id" ng-switch="section.type">
+	<h3>{{section.title}}</h3>
+	<div ng-switch-when="sub-section" ng-repeat="row in section.rows" class="{{ row.class }} content-block">
+		<div ng-repeat="col in row.cols" class="{{ col.class }}" ng-bind-html="trustAsHtml(col.content)">
+		</div>
+	</div>
+	<div ng-switch-default ng-repeat="row in section.rows" class="{{ row.class }} content-block">
+		<div ng-repeat="col in row.cols" class="{{ col.class }}" ng-bind-html="trustAsHtml(col.content)">
+		</div>
+	</div>
+</div> 

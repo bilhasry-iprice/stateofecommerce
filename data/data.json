@@ -1,0 +1,57 @@
+{
+  "config": {
+    "title": "State of E-commerce",
+    "meta": {
+      "twitter": {
+        "card": "summary",
+        "site": "@iPriceMY",
+        "creator": "@iPriceMY"
+      },
+      "facebook": {
+        "type": "website",
+        "url": "https://iprice.com.my/",
+        "title": "iPrice Report on SEA E-commerce",
+        "description": "Put Your Description Here",
+        "image": ""
+      }
+    }
+  },
+  "menus": [
+    {
+      "class": "nav-item",
+      "menu_title": "Key Findings",
+      "link": "#key-findings"
+    },
+    {
+      "class": "nav-item",
+      "menu_title": "Event Summary",
+      "link": "#event-summary"
+    },
+    {
+      "class": "nav-item",
+      "menu_title": "Propiery Data",
+      "link": "#propiery-data"
+    },
+    {
+      "class": "nav-item",
+      "menu_title": "value Added",
+      "link": "#value-added"
+    },
+    {
+      "class": "nav-item",
+      "menu_title": "Social Media",
+      "link": "#social-media"
+    },
+    {
+      "class": "nav-item",
+      "menu_title": "Methodology",
+      "link": "#methodology"
+    }
+  ],
+  "header": {
+    "title": "A Brief Report on SEA Market",
+    "subtitle": "State of E-commerce",
+    "parallax" : true,
+    "background" : "bg-malaysia.jpg"
+  }
+}
