@@ -23,10 +23,23 @@ a.
                 var type    = $(this).attr('type');
                 var _id     = $(this).attr('id');
                 var _title  = $(this).attr('data-title');
+                var pos     = $(this).attr('data-pos');
                 var _labels = data[0].labels; var _values = data[0].data; var _bgs=[];
                 console.log(_values);
                 switch( type ){
-                  case 'bar'      : horizontalChart( _id, _values);
+                  case 'horizontal-bar' : 
+                      console.log(pos);
+                      pos = parseInt(pos);
+                      _values = data[pos].data;
+                      horizontalChart( _id, _values);
+
+                    break;
+                  case 'spline'         : 
+                      
+                      pos = parseInt(pos);
+                      _values = data[pos].data;
+                      splineChart( _id, _values);
+
                     break;
                   case 'doughnut' :
                     break;
