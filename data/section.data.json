@@ -69,24 +69,248 @@
     ]
   },
   {
+    "id": "southeast-asia",
+    "title" : "South East Asia Average",
+    "rows" : [
+      {
+        "class" : "percentage-report row",
+        "cols" : [
+          {
+            "class" : "col-md-4 col-lg-4",
+            "content" : "<figure class='percentage-item'><span class='lnr lnr-chart-bars'></span><figcaption><span class='percentage'>1.99%</span><span class='subtitle'>Conversion Rate</span></figcaption></figure>"
+          },
+          {
+            "class" : "col-md-4 col-lg-4",
+            "content" : "<figure class='percentage-item'><span class='lnr lnr-briefcase'></span><figcaption><span class='percentage'>51%</span><span class='subtitle'>Average Order Value</span></figcaption></figure>"
+          },
+          {
+            "class" : "col-md-4 col-lg-4",
+            "content" : "<figure class='percentage-item'><span class='lnr lnr-map'></span><figcaption><span class='percentage'>9.45%</span><span class='subtitle'>Local Cancellation</span></figcaption></figure>"
+          }
+        ]
+      },
+      {
+        "class" : "average-report row",
+        "cols" : [
+          {
+            "class" : "col-md-12 col-lg-12",
+            "content" : "<p>Overall, order values are higher on desktop than on mobile. People are more confident is making large purchases when they are able to sit down and analyze on a desktop. The mobile conversion rate is surprisingly low, showing that people use mobile more to browse than to actually purchase. The higher desktop conversion rate show that people turn to their computers when they are actually ready to make a purchase.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "iprice-data",
     "class" : "parallax",
     "title" : "iPrice Proprietary Data"
   },
   {
-    "id": "southeast-asia",
-    "title" : "South East Asia Average",
-    "rows" : [
+    "id" : "data-by-country",
+    "class" : "per-country-data",
+    "title" : false,
+    "type"  : "section",
+    "rows"  : [
       {
-        "class" : "average-report row",
+        "class" : "conversion-rate content-section",
+        "title" : "Data by country - Conversion Rate ",
         "cols" : [
           {
-            "class" : "col-md-5 col-lg-5",
-            "content" : "<figure class='percentage-item'><img src='assets/img/conversion-rate.png' alt='' /><figcaption><span class='percentage'>1.99%</span><span class='subtitle'>Conversion Rate</span></figcaption></figure><figure class='percentage-item'><img src='assets/img/average-order-value.png' alt='' /><figcaption><span class='percentage'>51%</span><span class='subtitle'>Average Order Value</span></figcaption></figure><figure class='percentage-item'><img src='assets/img/cancellation-rate.png' alt='' /><figcaption><span class='percentage'>9.45%</span><span class='subtitle'>Local Cancellation</span></figcaption></figure>"
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='cr-country' type='horizontal-bar'  data-pos='0' data-title='Conversion Rate By Country' class='chart'></div>"
           },
           {
-            "class" : "col-md-7 col-lg-7",
-            "content" : "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy.&nbsp;</p>"
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "conversion-rate content-section",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : ""
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : ""
+          }
+        ]
+      },
+      {
+        "class" : "average-order-value content-section",
+        "title" : "Data by country - Average Order Value ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='aov-country'  data-pos='1' type='horizontal-bar' data-title='Conversion Rate By Country' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='gdp-country' type='horizontal-bar' data-pos='2' data-title='Conversion Rate By Country' class='chart'></div>"
+          }
+        ]
+      },
+      {
+        "class" : "average-order-value",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='aov-lz' data-title='Conversion Rate By Country' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>The average order value is tied very closely to the GDP per capita of the country, as people from wealthier countries are more likely to spend big. Philippines and Thailand have higher order values due to the large portion of electronics purchases</p>"
+          }
+        ]
+      },
+      {
+        "class" : "cancellation-rate content-section",
+        "title" : "Data by country - Cancellation Rate ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='cancel-rate' data-pos='3' type='horizontal-bar' data-title='Conversion Rate By Country' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='dc-usage' type='bar'  data-pos='4' data-title='Conversion Rate By Country' class='chart'></div>"
+          }
+        ]
+      },
+      {
+        "class" : "cancellation-rate",
+        "cols" : [
+          {
+            "class" : "col-md-12 col-lg-12 text-content",
+            "content" : "<p>Thailand and Indonesia have a very *low debit card usage, making merchants reliant on bank transfers and cash on delivery for payment. Since bank transfers take time to be processed and cash on delivery doesn’t take place until days after the initial purchase, people have a larger window of time to cancel. Having a larger window of cancelation without consequence allows people to rethink and regret their purchases.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "overall-cr content-section",
+        "title" : "Local vs Overall - Conversion Rate",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='lo-cr' type='horizontal-bar'  data-pos='5' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>The overall conversion rate is lower than the conversion rate for local merchants. This is due to a large order value and higher shipping costs for international merchants, making people more hesitant to purchase</p>"
+          }
+        ]
+      },
+      {
+        "class" : "overall-aov content-section",
+        "title" : "Local vs Overall - Average Order Value",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='lo-aov' type='horizontal-bar' data-pos='6' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>Overall order value is higher than local order value due to higher spending when buying from international merchants. In general international products are more expensive. Also people spend more to justify higher shipping costs</p>"
+          }
+        ]
+      },
+      {
+        "class" : "local-cr content-section",
+        "title" : "Data By Country (Desktop vs Mobile) - Conversion Rate (local)",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='loc-cr'  data-pos='7' type='horizontal-bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>Desktop CR is multiple times higher than mobile CR for every country. In Singapore the desktop CR is 3.2 times higher, while in Malaysia desktop is only 2.5 times higher.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "local-aov content-section",
+        "title" : "Data By Country (Desktop vs Mobile) - Average Order Value (local)",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='loc-aov' type='horizontal-bar'  data-pos='8' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>The average order value is consistently higher on desktop than on mobile. One possible explanation for this is that when making large purchases, people are more comfortable sitting down to analyze and compare different products. People generally spend more time researching for large purchases, making them gravitate towards desktops when making a final decision.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "hourly-orders content-section",
+        "title" : "Data By Country - Number of Orders Hourly",
+        "cols" : [
+          {
+            "class" : "col-md-8 col-lg-8 graph-content",
+            "content" : "<div id='order-hours' type='spline' data-pos='9' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-4 col-lg-4 text-content",
+            "content" : "<p>Interestingly, the number of orders peaks between 10 A.M and 5 P.M, when people are at work or school. There is a dip until 7 P.M for the evening commute and dinner time, before increasing until the late night. Singapore differs from the other countries, peaking at 10 P.M when the working day has been completed. This is possibly due to Singapore’s hard working culture, and inability to browse during working hours</p>"
+          }
+        ]
+      },
+      {
+        "class" : "day-part-orders content-section",
+        "title" : "Data By Country - Number of Orders per Parts of the Day",
+        "cols" : [
+          {
+            "class" : "col-md-8 col-lg-8 graph-content",
+            "content" : "<div id='order-day' type='spline' data-pos='10' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-4 col-lg-4 text-content",
+            "content" : "<p>The high number of purchases in late morning and afternoon shows that many people buy during working hours when they have easy access to a computer. Otherwise, the number of orders is closely tied to how active the average person is, with high activity during the day and evening and low activity in the late night and early morning, when most are sleeping.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "week-orders content-section",
+        "title" : "Data By Country - Day of Week Overall Conversion Rate",
+        "cols" : [
+          {
+            "class" : "col-md-8 col-lg-8 graph-content",
+            "content" : "<div id='order-week' type='spline' data-pos='11' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-4 col-lg-4 text-content",
+            "content" : "<p>Clearly the conversion rate for users drops on the weekend. A main factor in this trend is the large increase in the percentage of mobile users. Those who browse on mobile are far less likely to convert, as previously shown. This conversion rate drop is most drastic in Indonesia, where percentage of mobile traffic exceeds 90% on the weekend. The peak conversion rate on Wednesday is possibly caused by an increased urgency to have products delivered by the weekend</p>"
+          }
+        ]
+      },
+      {
+        "class" : "mobile-traffic content-section",
+        "title" : "Day of week – % of Mobile Traffic contribution",
+        "cols" : [
+          {
+            "class" : "col-md-8 col-lg-8 graph-content",
+            "content" : "<div id='mob-traffic' type='spline' data-pos='12' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-4 col-lg-4 text-content",
+            "content" : "<p>The share of mobile traffic remains very constant throughout the working week. The large increase during the weekend is likely caused by people leaving their homes and offices, where their desktops are located. The lack of desktop access increases the reliance on smart phones, growing mobile traffic</p>"
+          }
+        ]
+      },
+      {
+        "class" : "quarterly-mobile-traffic content-section",
+        "title" : "Quarterly – % of Mobile Traffic Contribution",
+        "cols" : [
+          {
+            "class" : "col-md-8 col-lg-8 graph-content",
+            "content" : "<div id='quarter-traffic' type='spline' data-pos='13' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-4 col-lg-4 text-content",
+            "content" : "<p>There has been a big migration to mobile traffic over the past year, caused largely by an increase in smart phone ownership. Also, improving internet and data speeds make it easier for people to browse on their devices. Contribution of mobile traffic will likely stabilize in the next few years. </p>"
           }
         ]
       }
@@ -98,22 +322,129 @@
   	"title" : "Value Added Services"
   },
   {
-  	"id": "conversion-rate",
-    "title": "Conversion Rate",
-    "rows": [
-    	{
-    		"class" : "conversion-rate-by-country row",
-    		"cols"  : [
-    			{
-    				"class" : "graph-section col-md-5 col-lg-5",
-    				"content": "<h4>Conversion Rate By Country</h4><div id='chart1' type='bar' class='chart' data-title='Conversion Rate'></canvas>"
-    			},
-    			{
-    				"class": "summary-item col-md-7 col-lg-7",
-            		"content": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy.&nbsp;</p>"
-    			}
-    		]
-    	}
+    "id" : "data-by-country",
+    "class" : "per-country-data",
+    "title" : false,
+    "type"  : "section",
+    "rows"  : [
+      {
+        "class" : "payment-options content-section",
+        "title" : "Payment Options ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='pay-option' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>Indonesia, Thailand, and Vietnam have high rates of bank transfers and cash on delivery. This is due to the low credit card penetration, making merchants more reliant on other payment methods. Since almost everyone in Singapore has access to a credit card, they can rely on this method of payment, and not have to resort to cash on delivery and Offline POS.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "delivery-policy content-section",
+        "title" : "Delivery Policy ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='deliv-policy' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>The population of Indonesia and Philippines is spread out amongst thousands of islands, making shipping and delivery of products much more time consuming and difficult. To justify for the difficulty in shipping, merchants charge for delivery much more often than in other countries. Almost every merchant in Singapore offers express delivery, an easy task because it is so small and well connected.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "return-policy content-section",
+        "title" : "Return Policy ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='ret-policy' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='avg-ret-policy' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          }
+        ]
+      },
+      {
+        "class" : "return-policy content-section",
+        "title" : "Return Policy ",
+        "cols" : [
+          {
+            "class" : "col-md-12 col-lg-12 text-content",
+            "content" : "<p>Countries like Indonesia and Philippines, where the population is spread over a large number of islands are less likely to offer a generous return policy due to the difficulties in shipping. As shown, Singapore has the most forgiving time period for returns. This is caused by Singapore’s small and well-connected population center, making shipping and returns much easier.</p>"
+          }
+        ]
+      },
+      {
+        "class" : "return-policy content-section",
+        "title" : "Return Policy for Unwanted Items ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='unwanted-graph' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='unwanted-payment' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          }
+        ]
+      },
+      {
+        "class" : "return-policy content-section",
+        "title" : "Return Policy for Unwanted Items ",
+        "cols" : [
+          {
+            "class" : "col-md-12 col-lg-12 graph-content",
+            "content" : "<p>Vietnam has the most generous time period for returns with 55% of merchants granting 15 or more days. However, Vietnam also has the largest percentage (71%) of merchants who charge for returns. Thailand is the opposite with merchants granting fewer days for returns, but also not charging for them. There was a large variety in merchants who did not report such data (5% in VN, 71% in TH)</p>"
+          }
+        ]
+      },
+      {
+        "class" : "site-offering content-section",
+        "title" : "Site Offering ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='offering-graph' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>Vietnam has the most generous time period for returns with 55% of merchants granting 15 or more days. However, Vietnam also has the largest percentage (71%) of merchants who charge for returns. Thailand is the opposite with merchants granting fewer days for returns, but also not charging for them. There was a large variety in merchants who did not report such data (5% in VN, 71% in TH)</p>"
+          }
+        ]
+      },
+      {
+        "class" : "customer-service content-section",
+        "title" : "Customer Service Channels",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='cs-channle-graph' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>Cleary Hotline is the preferred communication method for consumers to merchants, with 75%-100% of merchants offering the service in each country. Singapore has a lower percentage of merchants offering a hotline, likely due to the high cost of labor needed to staff it. Livechat is quite popular in Indonesia with two out of every three merchants offering the service</p>"
+          }
+        ]
+      },
+      {
+        "class" : "manual-search content-section",
+        "title" : "Sample Composition of Manual Search ",
+        "cols" : [
+          {
+            "class" : "col-md-6 col-lg-6 graph-content",
+            "content" : "<div id='composition-graph' type='bar' data-title='Local vs Overall Conversion Rate' class='chart'></div>"
+          },
+          {
+            "class" : "col-md-6 col-lg-6 text-content",
+            "content" : "<p>Vietnam’s online shopping is dominated by electronics (61%), while completely lacking in cosmetics. Malaysia is the opposite with only 7% of sales coming from electronics but a hefty 20% coming from cosmetics. Almost no merchants operating in Thailand are fashion based, showing that they prefer to shop for clothes in physical stores. </p>"
+          }
+        ]
+      }
     ]
   },
   {

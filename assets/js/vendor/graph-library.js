@@ -56,8 +56,28 @@ function horizontalChart( _id, _values){
  * pie chart function
  */
 
-function pieChart( _id, data){
-
+function splineChart( _id, data){
+	var chart = c3.generate({
+		bindto: '#'+_id,
+	    data: {
+	    	x : 'x',
+        	columns: data,
+        	type: 'spline'
+	    },
+	    axis : {
+	    	x: {
+	            type: 'category' // this needed to load string x value
+	        }
+	    },
+	    grid: {
+	        x: {
+	            show: true
+	        },
+	        y: {
+	            show: true
+	        }
+	    }
+	});
 }
 
 /** 
