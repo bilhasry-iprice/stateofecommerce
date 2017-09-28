@@ -33,18 +33,6 @@ a.controller('mainController', function($scope, $http, $window){
       		
       });
 
-      $window.onload = function(){
-
-                        $(window).scroll(function (event) {
-                            var scroll = $(window).scrollTop();
-                            console.log(scroll);
-                            if( scroll != 0){
-                              $('.navbar-default').addClass('sticky');
-                            }else{
-                              $('.navbar-default').removeClass('sticky');
-                            }
-                        });
-                  }
 })
 .directive('headerElement', function(){
       return {
