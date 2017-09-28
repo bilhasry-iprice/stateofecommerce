@@ -5,7 +5,7 @@
 		</div>
 	</div>
 	<div ng-switch-default ng-repeat="row in section.rows" class="{{ row.class }} content-block">
-		<h4>{{ row.title }}</h4>
+		<h4 class="{{row.title === false ? 'hidden' : ''}}">{{ row.title }}</h4>
 		<div ng-repeat="col in row.cols" class="{{ col.class }}" ng-bind-html="trustAsHtml(col.content)">
 		</div>
 	</div>

@@ -15,6 +15,22 @@ a p{
 	color: #000;
 }
 
+
+
+#cr-country path.c3-bar,
+#loc-cr g.c3-bars-Local-CR path.c3-bar{
+    fill: #26A65B !important;
+}
+
+#loc-cr g.c3-bars-Desktop path.c3-bar{
+    fill: #F39C12 !important;
+}
+
+#loc-cr g.c3-bars-Mobile path.c3-bar{
+    fill: #1E8BC3 !important;
+}
+
+
 h2, h3, h4{
 	color: #086A87;
 	text-align:center;
@@ -53,7 +69,7 @@ h2, h3, h4{
 
 .navbar-right li a{
 	color: #fff !important;
-	font-weight: 800;
+	font-weight: 400;
 }
 
 .section > h3{
@@ -68,6 +84,7 @@ h2, h3, h4{
 
 .parallax h3{
 	color: #fff;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
 }
 
 /*========= HEADER ======================*/
@@ -77,7 +94,7 @@ h2, h3, h4{
 }
 
 .section{
-	padding: 100px 0px;
+	padding: 35px 0px;
 }
 .content-block{
 	width: 100%;
@@ -171,35 +188,31 @@ h2, h3, h4{
 	margin-bottom: 35px;
 }
 
-span.lnr{
+.percentage-item > img{
 	margin: 0px auto;
-	width: 100%;
-	display: block;
-	font-size: 48px;
-	color: #fff;
-	width: 128px;
-	padding: 38px 0px;
-	border-radius: 50%;
-	background: #33cccc;
-	vertical-align:middle;
+	float:left;
 }
 
 .percentage-item figcaption{
 	margin-top: 25px;
 	font-family: 'Noto Sans', sans-serif;
+	clear:both;
 }
 
-.percentage-item figcaption .percentage{
+.percentage-item .percentage{
 	font-size: 56px;
 	font-family: 'Noto Sans', sans-serif;
 	color: #a9a9a9;
 	display:block;
-	line-height: 64px;
+	float:left;
+	line-height: 75px;
+	margin-left: 15px;
 }
 .percentage-item img{
 	width: 75px;
 	height: auto;
 	float:left;
+	margin-left: 25px;
 }
 
 .average-report{
@@ -247,7 +260,7 @@ span.lnr{
 .counter figure .number{
 	display: inline-block;
 	font-size: 48px;
-	font-weight: lighter;
+	font-weight: bold;
 	color: rgb(255, 136, 97);
 	line-height: 48px;
 	font-family: 'Alfa Slab One', Helvetica, sans-serif;
@@ -272,7 +285,116 @@ span.lnr{
 	background-size: 100% 100%;
 }
 
+.tweet-quote {
+    max-width: 720px;
+    width: 100%;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    text-align:center;
+    font-weight: bold;
+    margin: 0px auto;
+    padding:50px 0px 0px 0px;
+    position: relative;
+
+}
+
+.tweet-quote a{
+    color: #FF6633;
+}
+
+
+.tweet-quote:before,
+.tweet-quote:after{
+    content: '"';
+    font-size: 78px;
+    position: absolute;
+    opacity: 0.3;
+    top: 10px;
+    color: #FF6633;
+    font-family: serif;
+}
+.tweet-quote:before{
+    left: -30px;
+}
+.tweet-quote:after{
+    right: -30px;
+}
+
+@media screen and (max-width:639px){
+	
+	.navbar-default{
+		background: #33cccc !important;
+		-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+	}
+
+	.navbar-toggle{
+		background-color: rgba(255,255,255,1.0);
+	}
+
+	.navbar-collapse{
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		background: #33cccc !important;
+		-webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+	}
+
+	.navbar-nav{
+		padding: 0px 20px;
+	}
+
+	.header{
+		min-height: 250px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		padding: 75px 30px;
+	}
+	
+	.header h3,.header h4{
+		color: #fff;
+		text-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+		text-transform: uppercase;
+	}
+	
+	.header h3{
+		font-size: 18px;
+		margin-bottom: 10px !important;
+		padding: 0px;
+	}
+	.header hr{
+		max-width: 50%;
+		margin: 0px auto;
+	}
+	.section{
+		padding: 35px 0px;
+	}
+	.section h3{
+		font-size: 26px;
+		text-align:center;
+	}
+
+	.row > [class*='col-md']{
+		width: 100%;
+	}
+
+	.content-block{
+		width: 100%;
+		max-width: 100%;
+		padding: 0px 20px 0px 20px;
+		text-align:left;
+	}
+
+	.parallax{
+		background-size: 100% auto !important;
+	}
+}
+
 @media screen and (min-width:1024px){
+
+	.big-padding{
+		padding: 100px 0px;
+	}
 	.col-md-6{
         width: 50%;
         width: -webkit-calc(50% - 10px);
@@ -289,12 +411,10 @@ span.lnr{
     
 
 	.sticky{
-		background: #fff !important;
+		background: #33cccc !important;
 		-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 	}
-	.sticky .navbar-right li a{
-		color: #333 !important;
-	}
+	
 	.header{
 		height: 500px;
 		float:left;

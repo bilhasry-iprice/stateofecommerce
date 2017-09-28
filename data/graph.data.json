@@ -4,35 +4,40 @@
 		"data" 	 : [
 			["x", "ID", "TH", "SG", "MY", "VN", "PH"],
 			[ "Conversion Rate", 2.53, 1.78, 2.61, 2.06, 2.94, 1.73]
-        ]
+        ],
+        "format" : "%"
 	},
 	{
 		"labels" : ["Average Order Value"],
 		"data" 	 : [
 			["x", "ID", "TH", "SG", "MY", "VN", "PH"],
 			[ "Conversion Rate", 36.28, 41.99, 90.64, 53.73, 22.85, 56.38]
-        ]
+        ],
+        "format" : "$"
 	},
 	{
 		"labels" : ["GDP Per Capita"],
 		"data" 	 : [
 			["x", "ID", "TH", "SG", "MY", "VN", "PH"],
 			[ "Conversion Rate", 12432, 17749, 90724, 28636, 6925, 8270]
-        ]
+        ],
+        "format" : "$"
 	},
 	{
 		"labels" : ["Cancellation Rate"],
 		"data" 	 : [
 			["x", "ID", "TH", "SG", "MY", "VN", "PH"],
 			[ "Conversion Rate", 10.89, 15.62, 10.07, 5.07, 5.61, 6.24]
-        ]
+        ],
+        "format" : "%"
 	},
 	{
 		"labels" : ["Debit Card Usage (% of All Adults)"],
 		"data" 	 : [
 			["x", "ID", "TH", "SG", "MY", "VN", "PH"],
 			[ "Conversion Rate", 8,8,78,19,3,20]
-        ]
+        ],
+        "format" : "%"
 	},
 	{
 		"labels" : ["Local vs Overall Conversion Rate"],
@@ -40,7 +45,8 @@
 			["x", "ID", "TH", "SG", "MY", "VN", "PH"],
 			[ "Local", 2.53, 1.78, 2.61, 2.06, 2.94, 1.73],
 			[ "Overall", 1.61, 1.30, 1.85, 1.56, 2.00, 1.10]
-        ]
+        ],
+        "format" : "%"
 	},
 	{
 		"labels" : ["Local vs Overall Average Order Value"],
@@ -48,7 +54,8 @@
 			["x", "ID", "TH", "SG", "MY", "VN", "PH"],
 			[ "Local", 36.28, 41.99, 90.64, 53.73, 22.85, 56.38],
 			[ "Overall", 39.51, 42.60, 103.12, 80.23, 24.42, 68.82]
-        ]
+        ],
+        "format" : "%"
 	},
 	{
 		"labels" : ["Desktop vs Mobile Conversion Rate"],
@@ -57,7 +64,8 @@
 			[ "Mobile", 2.17, 1.23, 1.53, 1.32, 2.31, 1.19],
 			[ "Desktop", 5.42, 3.35, 4.82, 3.11, 5.91, 3.22],
 			[ "Local CR", 2.53, 1.78, 2.61, 2.06, 2.94, 1.73]
-        ]
+        ],
+        "format" : "%"
 	},
 	{
 		"labels" : ["Desktop vs Mobile Average Order Value"],
@@ -66,7 +74,8 @@
 			[ "Mobile", 35.01, 39.04, 81.67, 51.77, 22.56, 55.03],
 			[ "Desktop", 41.72, 46.91, 95.81, 54.15, 25.61, 59.02],
 			[ "Local CR", 36.28, 41.99, 90.64, 53.73, 22.85, 56.38]
-        ]
+        ],
+        "format" : "%"
 	},
 	{
 		"labels" : ["Hourly # of Orders"],
@@ -78,7 +87,8 @@
 			["MY","24","40","59","94","131","155","171","147","158","164","169","150","122","99","102","124","140","126","55","60","43","27","21","20"],
 			["VN","22","31","62","101","149","189","176","164","167","161","170","159","102","90","98","113","130","126","50","54","30","21","19","16"],
 			["PH","42","62","77","109","124","143","141","143","167","148","145","120","106","103","125","120","110","47","59","43","37","33","38"]
-		]
+		],
+		"format" : "%"
 	},
 	{
 		"labels" : ["Part of Day # of Orders"],
@@ -90,7 +100,8 @@
 			["MY","54","151","160","112","95","28"],
 			["VN","54","169","164","101","90","21"],
 			["PH","73","138","154","114","84","38"]
-		]
+		],
+		"format" : "%"
 	},
 	{
 		"labels" : ["Day of Week Local Conversion Rate"],
@@ -102,7 +113,8 @@
 			["MY","100","104","115","103","97","77","80"],
 			["VN","100","107","109","110","105","87","76"],
 			["PH","100","102","107","107","103","84","80"]
-		]
+		],
+		"format" : "%"
 	},
 	{
 		"labels" : ["Day of Week Local Conversion Rate"],
@@ -114,7 +126,8 @@
 			["MY","68","66","66","66","68","79","80"],
 			["VN","64","65","64","65","65","72","77"],
 			["PH","72","70","70","71","72","79","82"]
-		]
+		],
+		"format" : "%"
 	},
 	{
 		"labels" : ["Quarterly % Of Mobile Contribution"],
@@ -126,7 +139,81 @@
 			["MY","62","66","73","74"],
 			["VN","57","62","70","72"],
 			["PH","66","69","74","76"]
+		],
+		"format" : "%"
+	},
+	{
+		"labels" : ["Payment Options"],
+		"data"	 : {
+			"overall" : [
+				["Credit Card", 84, 72, 92, 80, 49, 66],
+				["E-Payment", 58, 60, 72, 92, 60, 86],
+				["Bank Transfer", 92, 80, 28, 34, 86, 42],
+				["Cash On Delivery", 42, 50, 10, 10, 80, 34],
+				["Virtual Wallet", 26, 30, 44, 42, 14, 32],
+				["Offline Point-of-Sale", 8, 46, 4, 10, 46, 16],
+				["Instalment", 42, 24, 8, 8, 48, 8]
+			],
+			"local" : [
+				["x", "Credit Card","E-Payment", "Bank Transfer", "Cash On Delivery", "Virtual Wallet", "Offline Point-of-Sale", "Instalment"],
+				["ID", 84, 57, 94, 43, 27, 8, 41],
+				["TH", 75, 60, 81, 52, 31, 46, 25],
+				["SG", 88, 69, 38, 19, 38, 4, 15],
+				["MY", 83, 97, 50, 17, 37, 10, 13],
+				["VN", 51, 59, 88, 82, 12, 47, 49],
+				["PH", 50, 95, 65, 80, 35, 20, 15]
+			]
+		},
+		"format" : "%"
+	},
+	{
+		"labels" : ["Delivery Policy"],
+		"data"	 : {
+			"overall" : [
+				["Free delivery", 14, 10, 18, 26, 20, 18],
+				["Free Above Certain $",14, 58, 50, 34, 54, 32],
+				["Paid", 72, 32, 32, 40, 26, 50]
+			],
+			"local" : [
+				["x", "ID", "TH", "SG", "MY", "VN", "PH"],
+				["Free delivery", 14, 10, 18, 26, 20, 18],
+				["Free Above Certain $", 14, 58, 50, 34, 54, 32],
+				["Paid", 72, 32, 32, 40, 26, 50]
+			]
+		},
+		"format" : "%",
+		"groups" : [
+			["Free delivery", "Free Above Certain $", "Paid"]
 		]
+	},
+	{
+		"labels" : ["Express Delivery"],
+		"data"	 : {
+			"overall" : [
+				["x", "ID", "TH", "SG", "MY", "VN", "PH"],
+				["data 1", 26.00, 52.00, 78.00, 56.00, 46.00, 66.00]
+				
+			],
+			"local" : [
+				["x", "ID", "TH", "SG", "MY", "VN", "PH"],
+				["data 1", 24, 50, 73, 30, 45, 40]
+			]
+		},
+		"format" : "%"
+	},
+	{
+		"labels" : ["Return Policy # Of Days"],
+		"data"	 : {
+			"overall" : [
+				["x", "ID", "TH", "SG", "MY", "VN", "PH"],
+				["data 1", 52, 20, 18, 28, 22, 26]
+				
+			],
+			"local" : [
+				["x", "ID", "TH", "SG", "MY", "VN", "PH"],
+				["data 1", 53, 21, 27, 43, 22, 55]
+			]
+		},
+		"format" : "%"
 	}
-
 ]
